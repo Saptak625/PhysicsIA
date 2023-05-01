@@ -1,0 +1,54 @@
+\documentclass[11pt]{article}
+\usepackage{paper_style}
+
+\usepackage{graphicx} % Required for inserting images
+\usepackage{indentfirst}
+\usepackage{lipsum}
+\usepackage{array}
+\usepackage{float}
+\usepackage{longtable}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{float}
+
+%% ===============================================
+%% Setting the line spacing (3 options: only pick one)
+% \doublespacing
+% \singlespacing
+\onehalfspacing
+%% ===============================================
+
+\setlength{\droptitle}{-5em} %% Don't touch
+
+\title{Investigation of the Relationship between Temperature and Resistance of a Thermistor}
+\author{Saptak Das}
+\date{April 2023}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+\label{section:introduction}
+I have always had a passion for electronics engineering, specifically how electronic sensors act as an interface for a computer to understand and interact with the complex environment it exists in. Specifically, I wondered how refrigerators, ovens, and HVAC knew when to turn on and turn off. I knew that thermistors were at the core of all these devices, but I could not determine how they functioned. Hence, I decided to explore how temperature affects the resistance of a thermistor for my Physics Internal Assessment.
+
+Furthermore, I have always been curious about the workings of superconductors, their unique properties, and their widespread applications. However, most superconductors must be cooled down significantly (around 93 K) before they exhibit their characteristic “zero resistance” \citep{butera1997dependence}. This experiment was thus currently infeasible, however, this investigation of the relationship between temperature and resistance in thermistors could be an important stepping stone for an experiment examining this same relationship in superconductors.
+
+\subsection{Research Question}
+What is the relationship between the electrical resistance and the temperature of a negative temperature coefficient (NTC) thermistor? 
+
+\input{background_research}
+
+\input{procedure}
+
+\input{data_collection}
+
+\input{analysis}
+
+\input{evaluation}
+
+\newpage
+\bibliography{ref}
+\bibliographystyle{apalike}
+
+\end{document}
